@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-['Rajdhani',sans-serif] text-[#E2E8F0] bg-[#0D1117];
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-['Michroma',sans-serif];
+}
